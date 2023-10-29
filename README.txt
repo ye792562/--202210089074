@@ -8,7 +8,7 @@
 
 void encrypt(char* input_password, char* output_password);
 void decrypt(char* input_password, char* output_password);
-
+//菜单
 int main() {
     int choice;
     char password[MAX_LEN + 1];
@@ -57,7 +57,7 @@ int main() {
 
     return 0;
 }
-
+//加密操作
 void encrypt(char* input_password, char* output_password) {
     int len = strlen(input_password);
 
