@@ -18,7 +18,7 @@ int main() {
     char generate_password[MAX_LEN + 1];
     int choice,num;
     printf("==============================\n");
-    printf("欢迎两个人使用密管理系统\n");
+    printf("欢迎陈卓权使用密管理系统\n");
     printf("==============================\n");
     printf("请选择操作: \n");
     printf("1. 加密\n");
